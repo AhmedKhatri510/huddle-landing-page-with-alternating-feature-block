@@ -1,0 +1,43 @@
+
+
+.header{
+    padding: 5rem;
+    background-image: linear-gradient(hsla(192, 26%, 49%, 0.2), hsla(192, 26%, 49%, 0.2)) ,url(../images/bg-hero-desktop.svg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+    @media only screen and (max-width: 31.25em) {
+        background-image: linear-gradient(hsla(192, 26%, 49%, 0.2), hsla(192, 26%, 49%, 0.2)) ,url(../images/bg-hero-mobile.svg);
+    }
+}
+
+.main {
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin-bottom: 10rem;
+}
+
+.z-box{
+    display: flex;
+   align-items: center;
+   flex-direction: column;
+
+   position: absolute;
+   z-index: -3;
+    
+}
+
+.footer {
+    background-color: var(--color-neutral-dark-cyan);
+    padding: 5rem;
+    color: white;
+    padding-top: 10rem;
+    
+    z-index: -2;
+    
+    
+}
